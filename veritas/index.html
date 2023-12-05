@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="http://doc.198.27.70.165.nip.io/veritas/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Veritas - Documentation de Francois Douvry</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="../css/extra.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Veritas";
+        var mkdocs_page_input_path = "veritas.md";
+        var mkdocs_page_url = "/veritas/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Documentation de Francois Douvry
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../about/">About</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../ansible/">Ansible</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../argocd/">Argocd</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../aws/">Aws</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../awx/">Awx</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../azure/">Azure</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../brocade/">Brocade</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../centrify/">Centrify</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../ceph/">Ceph</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../cilium/">Cilium</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../cisco/">Cisco</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../clx/">Clx</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../confluence/">Confluence</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../debian/">Debian</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../dmx/">Dmx</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../dns/">Dns</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../doc/">Doc</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../docker/">Docker</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../fail2ban/">Fail2ban</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../firewall/">Firewall</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../foreman/">Foreman</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../git/">Git</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../gitlab/">Gitlab</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../grafana/">Grafana</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../guacamole/">Guacamole</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../haproxy/">Haproxy</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../helm/">Helm</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../install/">Install</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../iscsi/">Iscsi</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../istio/">Istio</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../java/">Java</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../k8s/">K8s</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../keycloak/">Keycloak</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../kubespray/">Kubespray</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../kvm/">Kvm</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../kyverno/">Kyverno</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../ldap/">Ldap</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../maven/">Maven</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../minio/">Minio</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../nagios/">Nagios</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../netapp/">Netapp</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../nfs/">Nfs</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../npm/">Npm</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../ntp/">Ntp</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../openstack/">Openstack</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../opensvc/">Opensvc</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../opscenter/">Opscenter</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../packer/">Packer</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../podman/">Podman</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../postgresql/">Postgresql</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../puppet/">Puppet</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../python/">Python</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../redhat/">Redhat</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../ruby/">Ruby</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../security/">Security</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../solaris/">Solaris</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../squid/">Squid</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../suse/">Suse</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../swarm/">Swarm</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../symantec/">Symantec</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../talos/">Talos</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../teleport/">Teleport</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../terraform/">Terraform</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../tmux/">Tmux</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../tools/">Tools</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../ubuntu/">Ubuntu</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../vagrant/">Vagrant</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../vault/">Vault</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Veritas</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#sites-internet-utiles">Sites Internet utiles</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#commandes">Commandes</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#commandes-veritas">Commandes Veritas</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#commandes-vcs-veritas-cluster">Commandes VCS (Veritas Cluster)</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#installation-et-administration">Installation et Administration</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../virtualbox/">Virtualbox</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../vmware/">Vmware</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../vmx/">Vmx</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../vnx/">Vnx</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../windows/">Windows</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Documentation de Francois Douvry</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Veritas</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="documentation-veritas">Documentation Veritas</h1>
+<h2 id="sites-internet-utiles">Sites Internet utiles</h2>
+<ul>
+<li><a href="http://www.veritas.com">www.veritas.com</a></li>
+<li><a href="http://sort.veritas.com">sort.veritas.com</a></li>
+</ul>
+<hr />
+<h2 id="commandes">Commandes</h2>
+<h3 id="commandes-veritas">Commandes Veritas</h3>
+<hr />
+<ul>
+<li><code>vxdisk scandisks new</code> - Scanner les disques</li>
+<li>
+<p><code>vxconfigd -k</code> - Scanner les disques (plus violent)</p>
+</li>
+<li>
+<p><code>vxdisk -e list</code> - Write a sample  - Lister les disques</p>
+</li>
+<li><code>vxdisksetup -i sdf format=sliced</code> - Initialiser un disque (format=sliced,..)</li>
+<li>
+<p><code>vxdiskunsetup -C sdf</code> - Initialiser un disque</p>
+</li>
+<li>
+<p><code>vxdg init testdg testdg01=sdf</code> - Créer d'un diskgroup</p>
+</li>
+<li><code>vxdg -g testdg adddisk testdg02=sdg</code> - Ajouter un disque dans un diskgroup</li>
+</ul>
+<hr />
+<h3 id="commandes-vcs-veritas-cluster">Commandes VCS (Veritas Cluster)</h3>
+<ul>
+<li><code>lltconfig</code> - Write a sample</li>
+<li><code>lltstat</code> - Write a sample</li>
+<li>
+<p><code>lltstat -nvv configured</code> - Write a sample</p>
+</li>
+<li>
+<p><code>gabconfig -a</code> - Write a sample</p>
+</li>
+</ul>
+<table>
+  <thead>
+    <tr>
+      <th>Port</th>
+      <th>Fonction Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>a</td>
+      <td>GAB to LLT Global Atomic Broadcast or Node membership</td>
+    </tr>
+    <tr>
+      <td>b</td>
+      <td>GAB to IOFENCE SCSI 3 Persistent Reservations - FENCING membership</td>
+    </tr>
+    <tr>
+      <td>d</td>
+      <td>GAB to ODM (Oracle Disk Manager) Oracle Disk Manager Global Database Storage Locking</td>
+    </tr>
+    <tr>
+      <td>f</td>
+      <td>GAB to CFS (Cluster File System) Cluster File System Lock and Metadata Traffic</td>
+    </tr>
+    <tr>
+      <td>h</td>
+      <td>GAB to HAD High Availability Daemon Communication</td>
+    </tr>
+    <tr>
+      <td>o</td>
+      <td>GAB to VCSMM driver System Kernel Generic Interface membership within Oracle</td>
+    </tr>
+    <tr>
+      <td>q</td>
+      <td>GAB to QuickLog Daemon Intent Log Coordination</td>
+    </tr>
+    <tr>
+      <td>u</td>
+      <td>GAB to CVM Temporary, used for node serialization during CVM join</td>
+    </tr>
+    <tr>
+      <td>v</td>
+      <td>GAB to CVM Used for node serialization during CVM join</td>
+    </tr>
+    <tr>
+      <td>w</td>
+      <td>GAB to vxconfigd in CVM Introduced in 3.5 to replace TCP/IP requirements for vxconfigd data transfer over Private Network</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+<li><code>hastatus</code> - Afficher le statut du cluster et les évènements</li>
+<li>
+<p><code>hastatus -summary</code> - Afficher le statut d'un cluster</p>
+</li>
+<li>
+<p><code>hasys -list</code> - Lister les noeuds</p>
+</li>
+<li>
+<p><code>hasys -state</code> - Lister le statut des noeuds</p>
+</li>
+<li>
+<p><code>haconf -makerw</code> - Ouvrir la configuration</p>
+</li>
+<li>
+<p><code>haconf -dump -makero</code> - Fermer la configuration</p>
+</li>
+<li>
+<p><code>hagrp -list</code> - Lister les Service Groups</p>
+</li>
+<li><code>hagrp -state</code> - Lister le statut des Service Groups</li>
+<li><code>hagrp -add appli01_sg</code> - Ajouter un Service Group</li>
+<li><code>hagrp -delete appli01_sg</code> - Supprimer un Service Group</li>
+<li>
+<p><code>hagrp -modify appli01_sg Parameter ...</code> - Modifier le paramètre d'un Service Group
+  -&gt; hagrp -modify appli01_sg AutoStartList fd208a fd208b
+  -&gt; hagrp -modify appli01_sg SystemList fd208a 0 fd208b 1</p>
+</li>
+<li>
+<p><code>hatype -list</code> - Write a sample</p>
+</li>
+<li>
+<p><code>hatype -display type</code> - Write a sample</p>
+</li>
+<li>
+<p><code>hares -list</code> - Write a sample</p>
+</li>
+<li>
+<p><code>hares -state</code> - Write a sample</p>
+</li>
+<li>
+<p>`hacf -cftocmd /etc/VRTSvcs/conf/config -dest /var/tmp - Write a sample</p>
+</li>
+</ul>
+<hr />
+<h2 id="installation-et-administration">Installation et Administration</h2>
+<div class="highlight"><pre><span></span><code>Sample
+</code></pre></div>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../vault/" class="btn btn-neutral float-left" title="Vault"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../virtualbox/" class="btn btn-neutral float-right" title="Virtualbox">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../vault/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../virtualbox/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
